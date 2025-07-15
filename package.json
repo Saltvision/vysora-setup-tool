@@ -1,0 +1,22 @@
+{
+  "name": "com.saltvision.vysora-setup",
+  "version": "1.0.0",
+  "displayName": "Vysora Setup Tool",
+  "description": "A tool for setting up Unity projects with standard objects and configurations",
+  "unity": "2020.3",
+  "documentationUrl": "https://github.com/Saltvision/vysora-setup-tool",
+  "changelogUrl": "https://github.com/Saltvision/vysora-setup-tool/releases",
+  "licensesUrl": "https://github.com/Saltvision/vysora-setup-tool/blob/main/LICENSE",
+  "keywords": [
+    "unity",
+    "setup",
+    "tool",
+    "editor"
+  ],
+  "author": {
+    "name": "Saltvision",
+    "url": "https://github.com/Saltvision"
+  },
+  "dependencies": {},
+  "samples": []
+}
