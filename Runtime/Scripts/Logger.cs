@@ -3,7 +3,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace Vysora
+namespace Saltvision.VysoraSetup
 {
     public enum LogLevel
     {
@@ -64,7 +64,7 @@ namespace Vysora
         {
             if (_logLevel <= LogLevel.Info)
             {
-                UnityEngine.Debug.Log($"[Vysora:Info] {message}");
+                UnityEngine.Debug.Log($"[Vysora] {message}");
                 LogToFileInternal("INFO", message, consoleOnly);
             }
         }
@@ -73,7 +73,7 @@ namespace Vysora
         {
             if (_logLevel <= LogLevel.Warning)
             {
-                UnityEngine.Debug.LogWarning($"[Vysora:Warning] {message}");
+                UnityEngine.Debug.LogWarning($"[Vysora] {message}");
                 LogToFileInternal("WARNING", message, consoleOnly);
             }
         }
@@ -82,7 +82,7 @@ namespace Vysora
         {
             if (_logLevel <= LogLevel.Error)
             {
-                UnityEngine.Debug.LogError($"[Vysora:Error] {message}");
+                UnityEngine.Debug.LogError($"[Vysora] {message}");
                 LogToFileInternal("ERROR", message, consoleOnly);
             }
         }
